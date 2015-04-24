@@ -3474,7 +3474,7 @@
 					src/ScenarioEditor,
 					src/World,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
@@ -3618,7 +3618,7 @@
 					src/ScenarioEditor,
 					src/World,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
@@ -3783,6 +3783,7 @@
 					../../../addons/ofxBullet/libs/bullet2.8.2/lib/osx/i386,
 					../../../addons/ofxBullet/libs/bullet2.8.2/lib/osx/x86_64,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "../../../addons/ofxLibwebsockets/libs/ofxLibwebsockets/include/ libs/ofxLibwebsockets/include src ../../../addons/ofxBullet/libs/bullet2.8.2/include/ ../../../addons/ofxLibwebsockets/libs/libwebsockets/include/ libs/jsoncpp/json ../../../addons/ofxFTGL/libs/FTGL/include/ libs/jsoncpp libs/libwebsockets/include/ libs/ofxLibwebsockets/include/ofxLibwebsockets libs/ofxLibwebsockets/src";
@@ -3918,6 +3919,7 @@
 					../../../addons/ofxBullet/libs/bullet2.8.2/lib/osx/i386,
 					../../../addons/ofxBullet/libs/bullet2.8.2/lib/osx/x86_64,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "../../../addons/ofxLibwebsockets/libs/ofxLibwebsockets/include/ libs/ofxLibwebsockets/include src ../../../addons/ofxBullet/libs/bullet2.8.2/include/ ../../../addons/ofxLibwebsockets/libs/libwebsockets/include/ libs/jsoncpp/json ../../../addons/ofxFTGL/libs/FTGL/include/ libs/jsoncpp libs/libwebsockets/include/ libs/ofxLibwebsockets/include/ofxLibwebsockets libs/ofxLibwebsockets/src";
